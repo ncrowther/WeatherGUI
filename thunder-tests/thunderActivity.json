@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5201c2eb-d31e-4c58-936a-e51145cf0747",
+    "colId": "history",
+    "containerId": "",
+    "name": "Loan Pre 1",
+    "url": "http://localhost:8080/Loan-PreQualification",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-29T18:33:04.931Z",
+    "modified": "2022-11-29T18:33:04.931Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"Loan rate pct\": 3,\n  \"Purchase price\": 100000,\n  \"Credit Score\": 850,\n  \"Down payment\": 10000,\n  \"Monthly income\": 3000\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
