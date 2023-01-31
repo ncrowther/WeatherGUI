@@ -87,7 +87,7 @@ export default function MyAppBar() {
         </MenuItem>
         <MenuItem
           onClick={(e) =>
-            handleLink("https://github.com/gerry-baird/decision-manager-l3-ui")
+            handleLink("https://github.com/ncrowther/WeatherGUI")
           }
         >
           This App on github

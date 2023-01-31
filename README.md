@@ -1,6 +1,6 @@
-# IBM Decision Manager Open Edition L3 UI
+# IBM Decision Manager Open Edition Weather App
 
-This simple web app enables you to execte decision services running locally using easy to use forms. Two deicsion services are supported, LoanPrequalification and Pricing.
+This simple web app enables you to execte the weather decision service both locally and on OpenShift.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -15,7 +15,7 @@ Once all the dependancies have been download you can start this react app locall
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3501/weather](http://localhost:3501/weather) to view it in your browser.
 
 ## Learn More
 
