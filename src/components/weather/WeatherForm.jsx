@@ -275,7 +275,7 @@ const WeatherForm = () => {
             <Grid xs={6}></Grid>
             <Grid xs={6}>
               <Typography variant="body1">
-                Advisory : {advisory}
+                 {advisory}
               </Typography>
             </Grid>
           </Grid>

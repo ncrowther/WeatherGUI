@@ -31,6 +31,10 @@ const WeatherProvider = ({ children }) => {
     } catch (error) {
       console.log("Error fetching Weather result, check URL and port in Home");
       console.log(error);
+      //Update state
+      let data = { "WeatherAdvice": JSON.stringify(error) }
+      setWeatherResult(data);
+      addWeatherResult(payload, data);
     }
   };
 
