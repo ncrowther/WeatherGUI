@@ -98,10 +98,10 @@ const WeatherForm = () => {
       console.log("Weather Result updated.");
 
       var advisory
-      if (WeatherResult["WeatherAdvice"] == null) {
+      if (WeatherResult == null) {
           advisory = "N/A"
       } else {
-        advisory = WeatherResult["WeatherAdvice"];
+        advisory =  JSON.stringify(WeatherResult);
       }
       setAdvisory(advisory);
     }
